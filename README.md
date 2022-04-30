@@ -1,7 +1,7 @@
 <!-- Plugin description -->
 <h1 align="center">
   <br>
-  <img src=".github/assets/icon.png" alt="Omni OWL Logo" width="100">
+  <img src="https://raw.githubusercontent.com/gabrielmaialva33/jetbrains/master/.github/assets/icon.png" alt="Omni OWL Logo" width="200">
   <br>
   Omni Owl for <a href="https://www.jetbrains.com">JetBrains</a>
   <br>
@@ -21,7 +21,7 @@
   <a href="#license">License</a>
 </p>
 
-![Omni Screenshot](.github/assets/screenshot.png)
+![Omni Screenshot](https://raw.githubusercontent.com/gabrielmaialva33/jetbrains/master/.github/assets/screenshot.png)
 
 ## Install
 
