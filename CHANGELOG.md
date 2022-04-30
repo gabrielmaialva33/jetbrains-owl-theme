@@ -8,3 +8,4 @@ All notable changes to this project will be documented in this file.
 
 - Initial version of plugin
 - Update dependencies
+
