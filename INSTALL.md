@@ -3,7 +3,7 @@
 #### Download files
 
 1. Go to [latest version](https://github.com/gabrielmaialva33/jetbrains/releases/latest)
-2. On **Assets** download **Omni.Theme-x.x.x.zip**
+2. On **Assets** download **OmniOwl.zip**
 
 #### Activating theme
 
