@@ -1,0 +1,257 @@
+{
+  "name": "OmniOwl",
+  "dark": true,
+  "author": "mrootx",
+  "editorScheme": "/OmniOwl.xml",
+  "colors": {
+    "BG": "#13111B",
+    "FG": "#E1E1E6",
+    "SELECTION": "#41414D",
+    "COMMENT": "#746699",
+    "CYAN": "#988BC7",
+    "GREEN": "#67E480",
+    "ORANGE": "#E89E64",
+    "PINK": "#FF79C6",
+    "PURPLE": "#78D1E1",
+    "RED": "#E96379",
+    "YELLOW": "#e7de79",
+    "WHITE": "#E1E1E6",
+    "LineHighlight": "#44475A75",
+    "NonText": "#FFFFFF1A",
+    "TAB_DROP_BG": "#44475A70",
+    "BGLighter": "#3C3550",
+    "BGLight": "#201B2D",
+    "BGDark": "#13111B",
+    "BGDarker": "#15121E"
+  },
+  "ui": {
+    "*": {
+      "background": "BG",
+      "foreground": "FG",
+      "infoForeground": "#9280C4",
+      "selectionBackground": "#41414D60",
+      "selectionForeground": "FG",
+      "selectionInactiveBackground": "LineHighlight",
+      "selectionBackgroundInactive": "LineHighlight",
+      "disabledBackground": "BGDarker",
+      "inactiveBackground": "BGDarker",
+      "disabledForeground": "COMMENT",
+      "disabledText": "COMMENT",
+      "inactiveForeground": "COMMENT",
+      "errorForeground": "RED",
+      "borderColor": "BGDarker",
+      "disabledBorderColor": "BGLighter",
+      "focusColor": "PURPLE",
+      "focusedBorderColor": "COMMENT",
+      "hoverBorderColor": "PURPLE",
+      "pressedBorderColor": "PURPLE",
+      "separatorColor": "BGDarker",
+      "lineSeparatorColor": "BGDarker"
+    },
+    "PopupMenuSeparator": {
+      "height": 1
+    },
+    "ToolBar": {
+      "background": "BGLighter"
+    },
+    "ActionButton": {
+      "hoverBackground": "SELECTION",
+      "pressedBackground": "SELECTION"
+    },
+    "Button": {
+      "background": "#00000000",
+      "startBackground": "BGLighter",
+      "endBackground": "BGLighter",
+      "startBorderColor": "PURPLE",
+      "endBorderColor": "PURPLE",
+      "default": {
+        "foreground": "FG",
+        "startBackground": "PURPLE",
+        "endBackground": "PURPLE",
+        "startBorderColor": "PURPLE",
+        "endBorderColor": "PURPLE",
+        "focusedBorderColor": "COMMENT"
+      }
+    },
+    "Borders": {
+      "color": "COMMENT",
+      "ContrastBorderColor": "BGLight"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "BGLight",
+      "modifiedItemForeground": "PURPLE",
+      "ArrowButton": {
+        "iconColor": "WHITE",
+        "disabledIconColor": "COMMENT",
+        "nonEditableBackground": "BGLight"
+      }
+    },
+    "CompletionPopup": {
+      "matchForeground": "PURPLE",
+      "selectionInactiveBackground": "SELECTION",
+      "selectionBackground": "SELECTION"
+    },
+    "Component": {
+      "errorFocusColor": "RED",
+      "inactiveErrorFocusColor": "RED",
+      "warningFocusColor": "ORANGE",
+      "inactiveWarningFocusColor": "ORANGE",
+      "iconColor": "WHITE",
+      "hoverIconColor": "WHITE"
+    },
+    "EditorPane": {
+      "background": "BGLighter",
+      "inactiveBackground": "BGLighter"
+    },
+    "DefaultTabs": {
+      "underlineColor": "PINK",
+      "inactiveUnderlineColor": "PINK",
+      "underlineHeight": 1,
+      "hoverBackground": "BGLight"
+    },
+    "EditorTabs": {
+      "background": "BGDark"
+    },
+    "Menu": {
+      "background": "BGLight"
+    },
+    "Editor": {
+      "shortcutForeground": "PURPLE"
+    },
+    "FileColor": {
+      "Yellow": "#E7DE7910",
+      "Green": "#67E48010",
+      "Blue": "#78D1E110",
+      "Violet": "#988BC710",
+      "Orange": "#E89E6410",
+      "Rose": "#E9637910"
+    },
+    "Link": {
+      "activeForeground": "PURPLE",
+      "hoverForeground": "PURPLE",
+      "pressedForeground": "PURPLE",
+      "visitedForeground": "COMMENT",
+      "secondaryForeground": "PINK"
+    },
+    "Notification": {
+      "errorForeground": "RED",
+      "errorBackground": "BG",
+      "errorBorderColor": "RED",
+      "MoreButton.innerBorderColor": "COMMENT",
+      "ToolWindow": {
+        "informativeForeground": "FG",
+        "informativeBackground": "BG",
+        "informativeBorderColor": "GREEN",
+        "warningForeground": "FG",
+        "warningBackground": "BG",
+        "warningBorderColor": "ORANGE",
+        "errorForeground": "FG",
+        "errorBackground": "BG",
+        "errorBorderColor": "RED"
+      }
+    },
+    "Plugins": {
+      "SearchField.background": "BGDark",
+      "hoverBackground": "BGLight",
+      "tagBackground": "PINK",
+      "tagForeground": "BG",
+      "lightSelectionBackground": "BGLight",
+      "SectionHeader": {
+        "background": "BGLighter"
+      },
+      "Button": {
+        "installForeground": "GREEN",
+        "installBorderColor": "GREEN",
+        "installFillForeground": "BG",
+        "installFillBackground": "GREEN",
+        "updateForeground": "PURPLE",
+        "updateBackground": "PURPLE"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "BGLight",
+        "inactiveBackground": "BGLight"
+      }
+    },
+    "ProgressBar": {
+      "trackColor": "BGLighter",
+      "progressColor": "PINK",
+      "indeterminateStartColor": "PURPLE",
+      "indeterminateEndColor": "PURPLE",
+      "failedColor": "RED",
+      "failedEndColor": "RED",
+      "passedColor": "GREEN",
+      "passedEndColor": "GREEN"
+    },
+    "DragAndDrop": {
+      "areaBorderColor": "SELECTION"
+    },
+    "WelcomeScreen": {},
+    "SidePanel": {
+      "background": "BGDark"
+    },
+    "Tree": {
+      "background": "BGDark",
+      "modifiedItemForeground": "PURPLE"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "BG",
+      "errorBorderColor": "RED",
+      "warningBackground": "BG",
+      "warningBorderColor": "ORANGE"
+    },
+    "VersionControl": {
+      "HgLog": {},
+      "RefLabel": {},
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "SELECTION"
+        }
+      },
+      "GitLog": {
+        "headIconColor": "PURPLE",
+        "localBranchIconColor": "GREEN",
+        "remoteBranchIconColor": "RED",
+        "tagIconColor": "CYAN",
+        "otherIconColor": "PINK"
+      },
+      "Log": {
+        "Commit": {
+          "hoveredBackground": "SELECTION",
+          "currentBranchBackground": "BGLight"
+        }
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#a0a0a0D0",
+      "Actions.Red": "#E96379",
+      "Actions.Yellow": "#e7de79",
+      "Actions.Green": "#67e480",
+      "Actions.Blue": "#78D1E1",
+      "Actions.GreyInline.Dark": "#808080D0",
+      "Objects.Grey": "#a0a0a0D0",
+      "Objects.RedStatus": "#ed4556D0",
+      "Objects.Red": "#ed4556D0",
+      "Objects.Pink": "#FF79C6D0",
+      "Objects.Yellow": "#e7de79D0",
+      "Objects.Green": "#00F769D0",
+      "Objects.Blue": "#78D1E1D0",
+      "Objects.Purple": "#988bc7D0",
+      "Objects.BlackText": "#201B2DD0",
+      "Objects.YellowDark": "#e7de79D0",
+      "Objects.GreenAndroid": "#00F769D0",
+      "Checkbox.Background.Default.Dark": "#252131",
+      "Checkbox.Border.Default.Dark": "#988bc7",
+      "Checkbox.Foreground.Selected.Dark": "#988bc7",
+      "Checkbox.Focus.Wide.Dark": "#988bc7",
+      "Checkbox.Focus.Thin.Default.Dark": "#988bc7",
+      "Checkbox.Focus.Thin.Selected.Dark": "#988bc7",
+      "Checkbox.Background.Disabled.Dark": "#252131",
+      "Checkbox.Border.Disabled.Dark": "#5A4B81",
+      "Checkbox.Foreground.Disabled.Dark": "#5A4B81"
+    }
+  }
+}

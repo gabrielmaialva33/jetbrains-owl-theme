@@ -1,0 +1,18 @@
+<idea-plugin url="https://github.com/gabrielmaialva33/jetbrains">
+  <id>com.github.gabrielmaialva33.jetbrains</id>
+  <name>Omni Owl Theme</name>
+  <vendor url="https://github.com/gabrielmaialva33/jetbrains" email="gabrielmaialva33@gmail.com">Omni Owl Theme</vendor>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="com.github.gabrielmaialva33.jetbrains.services.MyApplicationService"/>
+    <projectService serviceImplementation="com.github.gabrielmaialva33.jetbrains.services.MyProjectService"/>
+    <themeProvider id="58dcc886-cce7-4764-a4c6-349a47006b8b" path="/OmniOwl.theme.json"/>
+  </extensions>
+
+  <applicationListeners>
+    <listener class="com.github.gabrielmaialva33.jetbrains.listeners.MyProjectManagerListener"
+              topic="com.intellij.openapi.project.ProjectManagerListener"/>
+  </applicationListeners>
+</idea-plugin>
