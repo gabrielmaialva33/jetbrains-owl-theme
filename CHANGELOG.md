@@ -19,7 +19,7 @@ All notable changes to this project will be documented in this file.
 - override some default color with dracula palette
 - some other visual optimization
 
-## [Unreleased]
+## 1.0.2
 
 - bump version
 
