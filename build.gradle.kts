@@ -67,7 +67,7 @@ tasks {
     sinceBuild.set(properties("pluginSinceBuild"))
     untilBuild.set(properties("pluginUntilBuild"))
 
-    pluginDescription.set(File("/Users/gabrielmaia/Documents/Dev/My/jetbrains/README.md").readText().lines().run {
+    pluginDescription.set(File("/Users/gabrielmaia/Documents/Dev/My/jetbrains-owl-theme/README.md").readText().lines().run {
       val start = "<!-- Plugin description -->"
       val end = "<!-- Plugin description end -->"
 
