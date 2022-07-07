@@ -17,7 +17,6 @@
   <img src="https://img.shields.io/github/repo-size/gabrielmaialva33/jetbrains-owl-theme?style=flat&logo=appveyor" alt="Repository size" >
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%235FCC6F">
   <img src="https://wakatime.com/badge/user/e61842d0-c588-4586-96a3-f0448a434be4/project/9aaa01d8-d39c-4e70-a460-0d39dd8bd093.svg?style=flat&logo=appveyor" alt="Wakatime" >
-  <img src="https://img.shields.io/github/license/gabrielmaialva33/jetbrains-owl-theme?color=00b8d3?style=flat&logo=appveyor" alt="License" />
   <a href="https://github.com/gabrielmaialva33/base-graphql-api/commits/master">
     <img src="https://img.shields.io/github/last-commit/gabrielmaialva33/jetbrains-owl-theme?style=flat&logo=appveyor" alt="GitHub last commit" >
     <img src="https://img.shields.io/badge/made%20by-Maia-15c3d6?style=flat&logo=appveyor" alt="Maia" >  
