@@ -8,7 +8,7 @@
   <extensions defaultExtensionNs="com.intellij">
     <applicationService serviceImplementation="com.github.gabrielmaialva33.jetbrains.services.MyApplicationService"/>
     <projectService serviceImplementation="com.github.gabrielmaialva33.jetbrains.services.MyProjectService"/>
-    <themeProvider id="58dcc886-cce7-4764-a4c6-349a47006b8b" path="/OmniOwl.theme.json"/>
+    <themeProvider id="c05a6f01-e36b-4ddc-bbc2-1fa67f74cedf" path="/OmniOwl.theme.json"/>
   </extensions>
 
   <applicationListeners>
