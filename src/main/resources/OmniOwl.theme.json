@@ -88,8 +88,8 @@
     },
     "CompletionPopup": {
       "matchForeground": "PURPLE",
-      "selectionInactiveBackground": "BG",
-      "selectionBackground": "BG"
+      "selectionInactiveBackground": "SELECTION",
+      "selectionBackground": "SELECTION"
     },
     "Component": {
       "errorFocusColor": "RED",
