@@ -7,7 +7,7 @@ fun properties(key: String) = project.findProperty(key).toString()
 plugins {
   id("java")
   id("org.jetbrains.kotlin.jvm") version "1.7.10"
-  id("org.jetbrains.intellij") version "1.7.0"
+  id("org.jetbrains.intellij") version "1.12.0"
   id("org.jetbrains.changelog") version "1.3.1"
   id("io.gitlab.arturbosch.detekt") version "1.21.0"
   id("org.jlleitschuh.gradle.ktlint") version "10.3.0"
@@ -51,15 +51,15 @@ detekt {
 
 tasks {
   withType<JavaCompile> {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
+    sourceCompatibility = "11"
+    targetCompatibility = "11"
   }
   withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
   }
 
   withType<Detekt> {
-    jvmTarget = "1.8"
+    jvmTarget = "11"
   }
 
   patchPluginXml {
@@ -67,7 +67,7 @@ tasks {
     sinceBuild.set(properties("pluginSinceBuild"))
     untilBuild.set(properties("pluginUntilBuild"))
 
-    pluginDescription.set(File("/Users/gabrielmaia/Documents/Dev/My/jetbrains-owl-theme/README.md").readText().lines().run {
+    pluginDescription.set(File("/Users/gabrielmaia/Documents/my/jetbrains-owl-theme/README.md").readText().lines().run {
       val start = "<!-- Plugin description -->"
       val end = "<!-- Plugin description end -->"
 

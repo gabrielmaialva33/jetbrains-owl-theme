@@ -23,7 +23,6 @@ All notable changes to this project will be documented in this file.
 
 - bump version
 
-
 ## 1.0.3
 
 - bump version
